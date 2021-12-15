@@ -16,11 +16,9 @@ function popup1(props) {
         <Modal.Body>
         <img src="https://imagevars.gulfnews.com/2017/7/24/1_16a08412ffc.2063789_4172633237_16a08412ffc_large.jpg" alt="Girl in a jacket" width="60px" height="60px"/>
 
-          <h4>Centered Modal</h4>
+          <h4>1</h4>
           <p>
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-            consectetur ac, vestibulum at eros.
+1
           </p>
         </Modal.Body>
         <Modal.Footer>
