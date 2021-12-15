@@ -33,15 +33,47 @@
   -webkit-animation: questionmover 1s infinite  alternate;
   animation: questionmover 1s infinite  alternate;
 }
-.bar {
-  opacity: 0;
-  
-}
+
 .question-move:hover { 
   transition: .6s fill;
-  fill: red !important;
+  fill: white !important;
 }
 
+.area {
+  fill: wheat;
+  opacity: 1%;
+
+}
+
+.area:hover { 
+  transition: .6s fill;
+  fill: red;
+  opacity: 30%;
+}
+
+.area2 {
+  fill: wheat;
+  opacity: 1%;
+
+}
+
+.area2:hover { 
+  transition: .6s fill;
+  fill: cyan;
+  opacity: 30%;
+}
+
+.area3 {
+  fill: wheat;
+  opacity: 1%;
+
+}
+
+.area3:hover { 
+  transition: .6s fill;
+  fill: purple;
+  opacity: 30%;
+}
 
 @-webkit-keyframes mover {
   0% { transform: translateY(0); }
