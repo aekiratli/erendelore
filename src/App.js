@@ -10,20 +10,19 @@ import Popup4 from "./components/popup4"
 import NavigationBar from "./components/Navbar"
 import AboutProject from "./components/AboutProjects"
 import AboutRace from './components/AboutRace';
-
+import AboutMint from './components/AboutMint';
 function App() {
 
 
 
   return (
-    <>
+    <div className='App'>
       {/* <Container><NavigationBar/></Container> */}
-
       <AboutProject />
       <br />
       <AboutRace />
-    </>
-  );
+      <AboutMint />
+    </div>);
 }
 
 export default App;

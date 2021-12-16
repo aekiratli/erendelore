@@ -19,6 +19,9 @@
   text-align: center;
 }
 
+.App {
+  background-color: rgb(19, 19, 51);
+}
 
 .font-pixel {
   font-family: 'Press Start 2P', cursive;
@@ -32,6 +35,8 @@
 .question-move {
   -webkit-animation: questionmover 1s infinite  alternate;
   animation: questionmover 1s infinite  alternate;
+  pointer-events: none;
+
 }
 
 .question-move:hover { 
@@ -51,6 +56,9 @@
   opacity: 30%;
 }
 
+#question-move:hover > area { opacity: 100%; }
+
+
 .area2 {
   fill: wheat;
   opacity: 1%;
@@ -61,6 +69,7 @@
   transition: .6s fill;
   fill: cyan;
   opacity: 30%;
+  
 }
 
 .area3 {
@@ -73,6 +82,23 @@
   transition: .6s fill;
   fill: purple;
   opacity: 30%;
+}
+
+.mintContainer {
+border-color: black;
+border-style: dashed;
+}
+
+.font-header-typewriting {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+
+}
+
+.font-header-mint {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+
 }
 
 @-webkit-keyframes mover {
@@ -92,6 +118,17 @@
   100% { transform: translateY(-10px); }
 }
 
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
 @media (max-width: 576px) {
   .LeftText {
     padding-top: 20px;
@@ -108,6 +145,7 @@
   font-family: 'Press Start 2P', cursive;
   color: white;
 }
+
 
 }
 
