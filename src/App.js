@@ -11,7 +11,9 @@ import NavigationBar from "./components/Navbar"
 import AboutProject from "./components/AboutProjects"
 import AboutRace from './components/AboutRace';
 import AboutMint from './components/AboutMint';
+import AboutFaq from './components/AboutFaq';
 import Footer from './components/Footer';
+
 function App() {
 
 
