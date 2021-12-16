@@ -11,6 +11,7 @@ import NavigationBar from "./components/Navbar"
 import AboutProject from "./components/AboutProjects"
 import AboutRace from './components/AboutRace';
 import AboutMint from './components/AboutMint';
+import Footer from './components/Footer';
 function App() {
 
 
@@ -22,6 +23,11 @@ function App() {
       <br />
       <AboutRace />
       <AboutMint />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <Footer/>
     </div>);
 }
 

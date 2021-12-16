@@ -60,14 +60,20 @@ function Mint({ provider }) {
                         <Row><Col><h6 style={{ color: "red" }} className="font-header-mint">Trait1:</h6></Col> <Col><h6 className="font-header-mint">{mouth}</h6></Col></Row>
                         <Row><Col><h6 style={{ color: "red" }} className="font-header-mint">Skill:</h6></Col> <Col><h6 className="font-header-mint">{skin}</h6></Col></Row>
                         <Row><Col><h6 style={{ color: "red" }} className="font-header-mint">Weapon:</h6></Col> <Col><h6 className="font-header-mint">{eyes}</h6></Col></Row>
+                        <Row><Col><h6 style={{ color: "red" }} className="font-header-mint">Current Supply:</h6></Col> <Col><h6 className="font-header-mint">23</h6></Col></Row>
+
                         <Row><Col><h6 style={{ color: "red" }} className="font-header-mint">Mint Price:</h6></Col> <Col><h6 className="font-header-mint">{mintPrice} ETH</h6></Col></Row>
-                        <Row><Col><h6 style={{ color: "red" }} className="font-header-mint">                                    <Button onClick={() => counter(false)} c color="info" type="button" >-</Button>
-
-                            {"    " + mintAmount + "    "}
-                            <Button onClick={() => counter(true)} color="info" type="button">+</Button></h6></Col> <Col><h6 className="font-header-mint">                                    <Button color="info" type="button" onClick={() => console.log("on the way!")}>
-                                Mint
-                            </Button></h6></Col></Row>
-
+                        <Row>
+                            <Col>
+                                <h6 style={{ color: "red", marginTop:"10px", paddingTop: "10px", borderTop: "3px solid red" }} className="font-header-mint">
+                                    <Button onClick={() => counter(false)} c color="info" type="button" >-</Button>
+                                    {"    " + mintAmount + "    "}
+                                    <Button onClick={() => counter(true)} color="info" type="button">+</Button></h6></Col> <Col><h6 
+                                    style={{ marginTop:"10px", paddingTop: "10px", borderTop: "3px solid white" }}className="font-header-mint">                                    <Button color="info" type="button" onClick={() => console.log("on the way!")}>
+                                        Mint
+                                    </Button></h6>
+                            </Col>
+                        </Row>
                         <br />
                     </Col>
                     <br />

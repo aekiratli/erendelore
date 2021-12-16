@@ -1,13 +1,4 @@
 
-.HugeBox {
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  background: salmon;
-  opacity: 50%;
-}
-
 .LeftText {
   
   text-align: justify;
@@ -84,10 +75,7 @@
   opacity: 30%;
 }
 
-.mintContainer {
-border-color: black;
-border-style: dashed;
-}
+
 
 .font-header-typewriting {
   font-family: 'Press Start 2P', cursive;
@@ -101,6 +89,11 @@ border-style: dashed;
 
 }
 
+.footerDiv {
+  color: white;
+  background-color: black;
+
+}
 @-webkit-keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-50px); }
@@ -116,17 +109,6 @@ border-style: dashed;
 @keyframes questionmover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-10px); }
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
 }
 
 @media (max-width: 576px) {
