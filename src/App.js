@@ -12,6 +12,9 @@ import AboutProject from "./components/AboutProjects"
 import AboutRace from './components/AboutRace';
 import AboutMint from './components/AboutMint';
 import AboutFaq from './components/AboutFaq';
+import AboutTeam from './components/AboutTeam';
+import AboutRoadmap from './components/AboutRoadmap';
+
 import Footer from './components/Footer';
 
 function App() {
@@ -25,6 +28,10 @@ function App() {
       <br />
       <AboutRace />
       <AboutMint />
+      <AboutFaq/>
+      <AboutTeam/>
+      <AboutRoadmap/>
+
       <br/>
       <br/>
       <br/>

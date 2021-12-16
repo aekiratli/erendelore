@@ -1,5 +1,5 @@
 import { Accordion, Container } from "react-bootstrap"
-
+import css from "../App.css"
 function AboutFaq() {
     return (
         <Container>
@@ -36,6 +36,7 @@ function AboutFaq() {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
+            
         </Container>
     )
 }
